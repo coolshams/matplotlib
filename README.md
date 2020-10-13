@@ -5,7 +5,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Code Examples](#codeexamples)
-* [Observations & Insights](#observations&insights)
 
 ## General info
 Input files are in .csv format & have over 1800 records. The goal is to compare the performance of drug Capomulin vs other treatment regimens.
@@ -28,8 +27,7 @@ Input files are in .csv format & have over 1800 records. The goal is to compare 
  Line and Scatter Plots:
  -
  
- Top Spenders & Most Popular Items:
- -pd.merge!! this took a while to implement. 
+
+ 
  `
-## Reading references
 
