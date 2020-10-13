@@ -1,32 +1,35 @@
 # Pymaceuticals
 > This challenge involves analyzing mouse data of 249 mice identified with SCC tumor growth that were treated through a variety of drug regimens.
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Code Examples](#codeexamples)
+* [Observations & Insights](#observations&insights)
+
 ## General info
 Input files are in .csv format & have over 1800 records. The goal is to compare the performance of drug Capomulin vs other treatment regimens.
 
 ## Technologies
-* conda - version 4.8.3
 * jupyter notebook - version 6.0.3
 
 ## Code Examples
 
-
-`Purchasing Analysis:
--used pd.options.display.float_format to format the floats. This gave me the answer in cleaner format.
+`Data Cleaning:
+-merged the files and identified the duplicates using .loc and .duplicated
+-used boolean statement on df column "Mouse ID" !=g989
  
- Gender Demographics:
- -used .map function - mapped dataframe column values with dictionary key - decimal & % format.
+ Bar and Pie charts:
+ -used group by and count. The tick locations generated were horizontal, changed to vertical using     rotation=90
  
- Purchasing Analysis(Gender):
- -used reset_index() to 'align' the column names in the o/p dataframe.
+ Quartiles, Outliers and Boxplots:
+ -
  
- Age Demographics & Purchasing Analysis:
- -applied binning. These are tricky.Took a while to narrow down the duplicates from sliced data!
+ Line and Scatter Plots:
+ -
  
  Top Spenders & Most Popular Items:
  -pd.merge!! this took a while to implement. 
  `
 ## Reading references
-Some helpful google reading references:
-https://kanoki.org/2019/04/06/pandas-map-dictionary-values-with-dataframe-columns/
-https://www.geeksforgeeks.org/how-to-join-pandas-dataframes-using-merge/
+
