@@ -5,7 +5,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Code Examples](#codeexamples)
-* [Observations & Insights](#observations&insights)
 
 ## General info
 Input files are in .csv format & have over 1800 records. The goal is to compare the performance of drug Capomulin vs other treatment regimens.
@@ -20,16 +19,14 @@ Input files are in .csv format & have over 1800 records. The goal is to compare 
 -used boolean statement on df column "Mouse ID" !=g989
  
  Bar and Pie charts:
- -used group by and count. The tick locations generated were horizontal, changed to vertical using     rotation=90
+ -used group by and count. The tick locations generated were horizontal, changed to vertical using rotation=90
  
  Quartiles, Outliers and Boxplots:
- -
+ -used isin, sort and drop duplicates to clean the mouse data.
  
  Line and Scatter Plots:
- -
- 
- Top Spenders & Most Popular Items:
- -pd.merge!! this took a while to implement. 
+ -used loc to get data associated with a particular mouse ID and used plot grid.
+ -looking at data grouped by mouse ID.
+
  `
-## Reading references
 
