@@ -25,15 +25,6 @@ Input files are in .csv format & have over 1800 records. The goal is to compare 
  -used isin, sort and drop duplicates to clean the mouse data.
  
  Line and Scatter Plots:
-<<<<<<< HEAD
  -used loc to get data associated with a particular mouse ID and used plot grid.
  -looking at data grouped by mouse ID.
-
-=======
- -
- 
-
- 
->>>>>>> fb4c8d46c07ac4e30aa56723d7edfe7d82f22be3
  `
-
